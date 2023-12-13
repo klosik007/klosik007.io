@@ -1,8 +1,9 @@
 <script setup lang='ts'>
+  import TheProjects from '../components/TheProjects.vue'
 </script>
 
 <template>
-      <div>
-    <h1>This is an projects page</h1>
-  </div>
+  <main>
+    <TheProjects />
+  </main>
 </template>
