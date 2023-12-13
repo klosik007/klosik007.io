@@ -18,13 +18,21 @@ import { RouterLink } from 'vue-router'
       <i class="bi bi-grid"></i><span class="ms-1 d-none d-sm-inline">Projects</span>
     </RouterLink>
   </li>
-  <li class="nav-item">
-    <RouterLink to="/contact" class="nav-link align-middle px-0">
-      <i class="bi bi-person-lines-fill"></i><span class="ms-1 d-none d-sm-inline">Contact</span>
+  <!-- <li>
+    <RouterLink to="/blog" class="nav-link align-middle px-0">
+      <i class="bi bi-pen"></i><span class="ms-1 d-none d-sm-inline">Blog</span>
     </RouterLink>
-  </li>
+  </li> -->
+  <div class="align-items-center mt-3">  
+    <a href="https://github.com/klosik007" target="_blank"><img class="float-start px-5" src="../assets/icons/github.svg" alt="" /></a>
+    <a href="https://www.linkedin.com/in/przemysław-kłos-5a524613a" target="_blank"><img class="float-start px-5" src="../assets/icons/linkedin.svg" alt="" /></a>
+  </div>
 </template>
 
 <style scoped>
+
+img:hover {
+  filter: invert(100%);
+}
 
 </style>
