@@ -1,9 +1,9 @@
+<script setup lang="ts">
+  import TheAboutMe from "../components/TheAboutMe.vue"
+</script>
+
 <template>
-  <div>
-    <h1>This is an about page</h1>
-  </div>
+  <main>
+    <TheAboutMe />
+  </main>
 </template>
-
-<style>
-
-</style>
