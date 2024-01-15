@@ -25,7 +25,7 @@ import { RouterLink } from 'vue-router'
   </li> -->
   <div class="align-items-center mt-3">  
     <a href="https://github.com/klosik007" target="_blank"><img class="float-lg-start  float-md-start float-sm-start px-2" src="../assets/icons/github.svg" alt="" /></a>
-    <a href="https://www.linkedin.com/in/przemysław-kłos-5a524613a" target="_blank"><img class="float-lg-start float-md-start float-sm-start px-2" src="../assets/icons/linkedin.svg" alt="" /></a>
+    <a href="https://www.linkedin.com/in/pklos" target="_blank"><img class="float-lg-start float-md-start float-sm-start px-2" src="../assets/icons/linkedin.svg" alt="" /></a>
   </div>
 </template>
 
