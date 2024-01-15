@@ -6,13 +6,15 @@ import TheMenu from './components/TheMenu.vue'
 <template>
   <div class="container-fluid">
     <div class="row flex-nowrap">
-      <div class="col-auto col-md3 col-xl-2 px-sm-2 px-0 bg-dark">
-        <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-while min-vh-100"> <!---->
-          <img class="rounded-circle img-fluid" src="/src/assets/images/klosik007.jpg" alt="" />
-          <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-            <span class="fs-5 d-none d-sm-inline">klosik007.io</span>
-          </a>
-          <ul id="menu" class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start">
+      <div class="col-auto col-md4 col-xl-3 col-md-3 col-sm-3 bg-dark">
+        <div class="d-flex flex-column align-items-center px-3 pt-2 text-white min-vh-100"> <!---->
+          <div>
+            <img class="rounded-circle img-fluid" src="/src/assets/images/klosik007.jpg" alt="" />
+            <a href="/" class="d-flex pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+              <span class="fs-5 d-none d-sm-inline">klosik007.io</span>
+            </a>
+          </div>
+          <ul id="menu" class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center">
             <TheMenu />
           </ul>
         </div>
