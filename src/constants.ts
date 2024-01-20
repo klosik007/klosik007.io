@@ -1,0 +1,1 @@
+export const postsDataUrl = "http://localhost:80/data";
