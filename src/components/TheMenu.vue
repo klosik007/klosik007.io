@@ -18,14 +18,18 @@ import { RouterLink } from 'vue-router'
       <i class="bi bi-grid"></i><span class="ms-1 d-none d-sm-inline">Projects</span>
     </RouterLink>
   </li>
-  <!-- <li>
+  <li>
     <RouterLink to="/blog" class="nav-link align-middle px-0">
       <i class="bi bi-pen"></i><span class="ms-1 d-none d-sm-inline">Blog</span>
     </RouterLink>
-  </li> -->
+  </li>
   <div class="align-items-center mt-3">  
-    <a href="https://github.com/klosik007" target="_blank"><img class="float-lg-start  float-md-start float-sm-start px-2" src="../assets/icons/github.svg" alt="" /></a>
-    <a href="https://www.linkedin.com/in/pklos" target="_blank"><img class="float-lg-start float-md-start float-sm-start px-2" src="../assets/icons/linkedin.svg" alt="" /></a>
+    <a href="https://github.com/klosik007" target="_blank">
+      <img class="float-lg-start float-md-start float-sm-start px-2" src="../assets/icons/github.svg" alt="" loading="lazy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/pklos" target="_blank">
+      <img class="float-lg-start float-md-start float-sm-start px-2" src="../assets/icons/linkedin.svg" alt="" loading="lazy" />
+    </a>
   </div>
 </template>
 
