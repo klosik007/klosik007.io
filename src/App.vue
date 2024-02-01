@@ -5,27 +5,71 @@ import TheMenu from './components/TheMenu.vue'
 
 <template>
   <div class="container-fluid">
-    <div class="row flex-nowrap">
-      <div class="col-auto col-md4 col-xl-3 col-md-3 col-sm-3 bg-dark">
-        <div class="d-flex flex-column align-items-center px-3 pt-2 text-white min-vh-100 sticky-top">
-          <div>
-            <img class="rounded-circle img-fluid" src="/src/assets/images/klosik007.jpg" alt="" loading="lazy"/>
-            <a href="/" class="d-flex pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-              <span class="fs-5 d-none d-sm-inline">klosik007.io</span>
-            </a>
+    <div class="row position-relative">
+      <div class="col-9 position-absolute top-0 start-50 translate-middle-x">
+        <section id="card">
+          <div class="row">
+            <nav class="navbar navbar-expand-lg bg-black col-4 d-flex justify-content-center sticky-top">
+                <a class="navbar-brand text-white" href="#">klosik007.io</a>
+            </nav>
+            <nav class="navbar navbar-expand-lg bg-secondary col-8 sticky-top">
+              <div class="collapse navbar-collapse d-flex justify-content-center">
+                <ul class="nav nav-underline lh-1">
+                  <li class="nav-item px-1">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item px-1">
+                    <a class="nav-link text-white" href="#myProjects">My Projects</a>
+                  </li>
+                  <li class="nav-item px-1">
+                    <a class="nav-link text-white" href="#blog">Blog</a>
+                  </li>
+                  <li class="nav-item px-1">
+                    <a class="nav-link text-white" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <div class="col-4 bg-black position-relative">
+              <div class="position-absolute start-0 top-0">
+
+              </div>
+              <div class="position-absolute start-50 top-50">
+                <p class="text-white fs-1">MY NAME IS PRZEMYSŁAW</p>
+                <p class="bg-warning fs-1 text-black text-nowrap">I'M A PHP DEVELOPER</p>
+              </div>
+            </div>
+            <div class="col-8 bg-black">
+              <!--my photo - compress it!!!-->
+              <img src="/src/assets/images/IMG_7696.jpg" class="img-fluid" loading="lazy" alt="" />
+            </div>
           </div>
-          <ul id="menu" class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center">
-            <TheMenu />
-          </ul>
-        </div>
-      </div>
-      <div id="content" class="col py-3">
-        <RouterView />
+        </section>
+
+        <section id="aboutMe">
+
+        </section>
+        <section id="myProjects">
+
+        </section>
+        <section id="blog">
+
+        </section>
+        <section id="contact">
+
+        </section>
+        <section id="footer">
+
+        </section>
       </div>
     </div>
   </div>
 </template>
 
 <style scoped>
+  .nav-link.active {
+    border-bottom: solid 0.25rem yellow;
+  }
+
 
 </style>
