@@ -31,8 +31,8 @@ import TheMenu from './components/TheMenu.vue'
               </div>
             </nav>
             <div class="col-4 bg-black position-relative">
-              <div class="position-absolute start-0 top-0">
-
+              <div class="position-absolute circlesPos">
+                <div id="circles"></div> <!--TODO: adjust to several screen sizes and resolutions-->
               </div>
               <div class="position-absolute start-50 top-50">
                 <p class="text-white fs-1">MY NAME IS PRZEMYSŁAW</p>
@@ -47,7 +47,23 @@ import TheMenu from './components/TheMenu.vue'
         </section>
 
         <section id="aboutMe">
+          <div class="row bg-light">
+<!--            <div class="col-12">-->
+              <div id="aboutMePhotos" class="float-start"></div>
+<!--            </div>-->
+            <div class="col-7 mt-4">
+              <div class="lh-1">
+                <p>who am i</p>
+                <p>HELLO</p>
+              </div>
 
+              <p>
+                Software developer with 2 years of experience in developing, maintaining and testing software applications.
+                Strong analytical background with over 3 years of data analysis and scripting. Being a quick learner and having problem solving attitude.
+                Team player at its best. Independent and goals-oriented work ethics.
+              </p>
+            </div>
+          </div>
         </section>
         <section id="myProjects">
 
@@ -71,5 +87,27 @@ import TheMenu from './components/TheMenu.vue'
     border-bottom: solid 0.25rem yellow;
   }
 
+  .circlesPos {
+    left: 15%;
+    top: 20%;
+  }
+
+  #circles {
+    width: 300px;
+    height: 200px;
+    background-image: radial-gradient(circle at 5px 5px, white 5px, transparent 0);
+    background-size: 30% 30%;
+  }
+
+  #aboutMePhotos {
+    background-image: url("/src/assets/images/fff.png"), linear-gradient(90deg, rgba(2,0,36,1) 100%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-position: left 50% top 40%, left 30% top 20%;
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+    max-height: 100%;
+  }
 
 </style>
