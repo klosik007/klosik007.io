@@ -19,6 +19,9 @@ import TheMenu from './components/TheMenu.vue'
                     <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item px-1">
+                    <a class="nav-link text-white" href="#aboutMe">About Me</a>
+                  </li>
+                  <li class="nav-item px-1">
                     <a class="nav-link text-white" href="#myProjects">My Projects</a>
                   </li>
                   <li class="nav-item px-1">
