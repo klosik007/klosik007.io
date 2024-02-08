@@ -104,11 +104,11 @@ import TheMenu from './components/TheMenu.vue'
 
   #aboutMePhotos {
     background-image: url("/src/assets/images/fff.png"), linear-gradient(90deg, rgba(2,0,36,1) 100%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
-    background-size: 500px 500px;
+    background-size: 28vi 28vi;
     background-repeat: no-repeat;
-    background-position: left 80% top 70%, left 30% top 20%;
-    width: 550px;
-    height: 550px;
+    background-position: left 80% top 70%, left 60% top 50%;
+    width: 32vi;
+    height: 32vi;
     max-width: 100%;
     max-height: 100%;
   }
