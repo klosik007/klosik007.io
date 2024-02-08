@@ -34,9 +34,9 @@ import TheMenu from './components/TheMenu.vue'
               <div class="position-absolute circlesPos">
                 <div id="circles"></div> <!--TODO: adjust to several screen sizes and resolutions-->
               </div>
-              <div class="position-absolute start-50 top-50">
-                <p class="text-white fs-1">MY NAME IS PRZEMYSŁAW</p>
-                <p class="bg-warning fs-1 text-black text-nowrap">I'M A PHP DEVELOPER</p>
+              <div class="position-absolute nameAttr">
+                <p class="text-white">MY NAME IS PRZEMYSŁAW</p>
+                <p class="text-black bg-warning text-nowrap">I'M A PHP DEVELOPER</p>
               </div>
             </div>
             <div class="col-8 bg-black">
@@ -92,14 +92,22 @@ import TheMenu from './components/TheMenu.vue'
 
   .circlesPos {
     left: 15%;
-    top: 20%;
+    top: 10%;
+  }
+
+  .nameAttr {
+    left: 50%;
+    top: 40%;
+    font-size: 3vw;
   }
 
   #circles {
-    width: 300px;
-    height: 200px;
-    background-image: radial-gradient(circle at 5px 5px, white 5px, transparent 0);
-    background-size: 30% 30%;
+    width: 18vi;
+    height: 10vi;
+    max-width: 100%;
+    max-height: 100%;
+    background-image: radial-gradient(circle at 3px 3px, slategrey 3px, transparent 0);
+    background-size: 15% 20%;
   }
 
   #aboutMePhotos {
