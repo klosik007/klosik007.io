@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
 import TheMenu from './components/TheMenu.vue'
+import TheProjects from "@/components/TheProjects.vue";
 </script>
 
 <template>
@@ -69,7 +70,9 @@ import TheMenu from './components/TheMenu.vue'
           </div>
         </section>
         <section id="myProjects">
-
+          <div class="row bg-secondary-subtle">
+            <the-projects />
+          </div>
         </section>
         <section id="blog">
 
