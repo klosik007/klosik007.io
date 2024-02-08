@@ -4,6 +4,7 @@
   import BlogView from "@/views/BlogView.vue";
   import ContactView from "@/views/ContactView.vue";
   import HomeView from "@/views/HomeView.vue";
+  import FooterView from "@/views/FooterView.vue";
 </script>
 
 <template>
@@ -31,7 +32,7 @@
         </section>
 
         <section id="footer">
-
+          <FooterView />
         </section>
       </div>
     </div>
