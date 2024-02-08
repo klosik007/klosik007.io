@@ -48,16 +48,13 @@ import TheMenu from './components/TheMenu.vue'
 
         <section id="aboutMe">
           <div class="row bg-light">
-            <div class="col-6 mt-5 d-flex justify-content-center">
+            <div class="col-6 mt-5 d-flex justify-content-center align-items-center">
               <div id="aboutMePhotos"></div>
             </div>
-            <div class="col-6 mt-5 d-flex align-items-center">
+            <div class="col-6 mt-5 px-5 d-flex justify-content-center align-items-center">
               <div>
                 <div class="lh-1">
-                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;who am i</p>
-                  <h2 class="hello">HELLO&nbsp;&nbsp;</h2>
-                  <div id="dashes"></div>
-                  <!--daszki-->
+                  <h2 class="hello">HELLO!&nbsp;&nbsp;</h2>
                 </div>
                 <p>
                   Software developer with 2 years of experience in developing, maintaining and testing software applications.
