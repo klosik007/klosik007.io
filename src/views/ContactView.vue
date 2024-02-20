@@ -1,8 +1,9 @@
 <script setup lang='ts'>
+  import TheContactPage from "@/components/TheContactPage.vue";
 </script>
 
 <template>
-  <div class="row bg-light">
-    <h1>This is an contact page</h1>
-  </div>
+  <main>
+    <TheContactPage />
+  </main>
 </template>
