@@ -5,7 +5,7 @@
     <div class="text-center mt-3">
       <h3 class="text-bg-warning inTouchTextInlineBlock">Let's get in touch!</h3>
       <h2 class="text-white">CONTACT ME</h2>
-      <div class="row">
+      <div class="row mt-4 mb-4">
         <div class="col-4">
           <img src="../assets/icons/envelope.svg" alt="Bootstrap" width="32" height="32" />
           <a href="mailto:pklos1992@gmail.com" target="_blank">pklos1992@gmail.com</a>
@@ -19,12 +19,14 @@
           <span class="text-white">Gdańsk</span>
         </div>
       </div>
-      <a href="https://github.com/klosik007" target="_blank"
-        ><img class="px-2" src="../assets/icons/github.svg" alt=""
-      /></a>
-      <a href="https://www.linkedin.com/in/pklos" target="_blank"
-        ><img class="px-2" src="../assets/icons/linkedin.svg" alt=""
-      /></a>
+      <div class="mb-3">
+        <a href="https://github.com/klosik007" target="_blank"
+          ><img class="px-2" src="../assets/icons/github.svg" alt=""
+        /></a>
+        <a href="https://www.linkedin.com/in/pklos" target="_blank"
+          ><img class="px-2" src="../assets/icons/linkedin.svg" alt=""
+        /></a>
+      </div>
     </div>
   </div>
 </template>
