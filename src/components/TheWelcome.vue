@@ -1,10 +1,9 @@
 <script setup lang="ts">
-  import TheNavigation from "@/components/TheNavigation.vue";
+
 </script>
 
 <template>
   <div class="row">
-    <TheNavigation />
     <div class="col-4 bg-black position-relative">
       <div class="position-absolute circlesPos">
         <div id="circles"></div> <!--TODO: adjust to several screen sizes and resolutions-->
