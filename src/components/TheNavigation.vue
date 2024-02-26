@@ -1,5 +1,23 @@
-<script setup lang="ts">
+<script lang="ts">
+  import { defineComponent } from 'vue'
 
+  export default defineComponent({
+    data() {
+      return {
+        activeSections: ["active", "", "", "", ""]
+      }
+    },
+
+    methods: {
+      setSectionAsActive(idx: number) {
+        for (let i = 0; i < this.activeSections.length; i++) {
+          this.activeSections[i] = '';
+        }
+
+        this.activeSections[idx] = 'active';
+      }
+    }
+  });
 </script>
 
 <template>
@@ -10,19 +28,19 @@
     <div class="collapse navbar-collapse d-flex justify-content-center col-8">
       <ul class="nav nav-underline lh-1">
         <li class="nav-item px-1">
-          <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+          <a @click="setSectionAsActive(0)" class="nav-link text-white" :class="[activeSections[0]]" href="#">Home</a>
         </li>
         <li class="nav-item px-1">
-          <a class="nav-link text-white" href="#aboutMe">About Me</a>
+          <a @click="setSectionAsActive(1)" class="nav-link text-white" :class="[activeSections[1]]" href="#aboutMe">About Me</a>
         </li>
         <li class="nav-item px-1">
-          <a class="nav-link text-white" href="#myProjects">My Projects</a>
+          <a @click="setSectionAsActive(2)" class="nav-link text-white" :class="[activeSections[2]]" href="#myProjects">My Projects</a>
         </li>
         <li class="nav-item px-1">
-          <a class="nav-link text-white" href="#blog">Blog</a>
+          <a @click="setSectionAsActive(3)" class="nav-link text-white" :class="[activeSections[3]]" href="#blog">Blog</a>
         </li>
         <li class="nav-item px-1">
-          <a class="nav-link text-white" href="#contact">Contact</a>
+          <a @click="setSectionAsActive(4)" class="nav-link text-white" :class="[activeSections[4]]" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
