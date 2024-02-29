@@ -25,7 +25,6 @@ import axios from 'axios'
 import { defineComponent } from 'vue'
 import moment from 'moment'
 import { postsDataUrl } from '/src/constants'
-import {useBlogSectionStore} from "@/stores/blogSection";
 
 export default defineComponent({
   data() {
@@ -34,24 +33,18 @@ export default defineComponent({
     }
   },
 
-  setup() {
-    const store = useBlogSectionStore();
-    return { store };
-  },
-
   async created() {
     await this.getPosts()
   },
 
   methods: {
     async getPosts() {
-      let postsLocal = await axios.get(postsDataUrl)
-      this.posts = postsLocal.data
+      this.posts = await axios.get(postsDataUrl).then((response) => response.data)
 
       if (this.posts !== null) {
-        this.store.setBlogSectionVisible();
+        localStorage.setItem("blogSection", "true")
       } else {
-        this.store.setBlogSectionInvisible();
+        localStorage.setItem("blogSection", "false")
       }
     },
 

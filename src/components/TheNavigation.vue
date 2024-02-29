@@ -1,17 +1,12 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useBlogSectionStore } from '@/stores/blogSection'
 
 export default defineComponent({
   data() {
     return {
       activeSections: ['active', '', '', '', ''],
+      blogSectionAvailable: localStorage.getItem("blogSection") === "true"
     }
-  },
-
-  setup() {
-    const store = useBlogSectionStore();
-    return { store };
   },
 
   methods: {
@@ -22,10 +17,6 @@ export default defineComponent({
 
       this.activeSections[idx] = 'active'
     },
-
-    blogSectionVisible() {
-      return this.store.blogSectionVisible
-    }
   }
 })
 </script>
@@ -64,7 +55,7 @@ export default defineComponent({
             >My Projects</a
           >
         </li>
-        <li v-if="blogVisible" class="nav-item px-1">
+        <li v-if="blogSectionAvailable" class="nav-item px-1">
           <a
             @click="setSectionAsActive(3)"
             class="nav-link text-white"
