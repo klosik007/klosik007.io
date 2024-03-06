@@ -62,7 +62,7 @@
 
 <style scoped>
   #aboutMePhotos {
-    background-image: url("/src/assets/images/fff.png"), linear-gradient(90deg, rgba(2,0,36,1) 100%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+    background-image: url("/src/assets/images/meInGlasses.png"), linear-gradient(90deg, rgba(2,0,36,1) 100%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
     background-size: 28vi 28vi;
     background-repeat: no-repeat;
     background-position: left 80% top 70%, left 60% top 50%;
