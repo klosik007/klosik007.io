@@ -10,7 +10,7 @@
       </div>
       <div class="position-absolute nameAttr">
         <p class="text-white">MY NAME IS PRZEMYSŁAW</p>
-        <p class="text-black bg-warning text-nowrap">I'M A PHP DEVELOPER</p>
+        <p class="text-black bg-warning text-nowrap">I'M A SOFTWARE DEVELOPER</p>
       </div>
     </div>
     <div class="col-8 bg-black">

@@ -6,15 +6,15 @@
       <h3 class="text-bg-warning inTouchTextInlineBlock">Let's get in touch!</h3>
       <h2 class="text-white">CONTACT ME</h2>
       <div class="row mt-4 mb-4">
-        <div class="col-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
           <img src="../assets/icons/envelope.svg" alt="Bootstrap" width="32" height="32" />
           <a href="mailto:pklos1992@gmail.com" class="link-light link-underline-opacity-0 ms-1" target="_blank">pklos1992@gmail.com</a>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
           <img src="../assets/icons/phone.svg" alt="Bootstrap" width="32" height="32" />
           <a href="tel:+48512655100" class="link-light link-underline-opacity-0 ms-1" target="_blank">+48 512 655 100</a>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
           <img  src="../assets/icons/geo-alt.svg" alt="Bootstrap" width="32" height="32" />
           <span class="text-white ms-1">Gdańsk</span>
         </div>

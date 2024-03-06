@@ -6,7 +6,7 @@
     <div class="row bg-secondary-subtle d-flex justify-content-center">
       <h1 class="text-decoration-underline lh-base">Projects in progress</h1>
       <div class="row">
-        <div class="col-6">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
           <div id="volumeInTimeManager" class="row mb-3">
             <h2>Volume In Time Manager</h2>
             <p class="lead">Simple tool for Android sounds on/off scheduling.</p>
@@ -26,7 +26,7 @@
             </div>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
           <div id="codeScanner" class="row mb-3">
             <h2>Code Scanner</h2>
             <p class="lead">Scan product code to know more about it!</p>
